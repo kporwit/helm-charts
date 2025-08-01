@@ -2,4 +2,5 @@
 charts
 
 output/
-tempaltes/*rendered.yaml
+templates/
+*.rendered.yaml
