@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  spring-boot-api:
+  - apiVersion: v2
+    appVersion: stable
+    created: "2025-08-01T10:23:58.673710372+02:00"
+    description: A Helm chart for Kubernetes
+    digest: f843e25b4659c1231af1f1c1a547bc9257819c1d6568c3b6403e44445c23bc02
+    name: spring-boot-api
+    type: application
+    urls:
+    - https://kporwit.github.io/helm-charts/spring-boot-api-0.1.0.tgz
+    version: 0.1.0
+generated: "2025-08-01T10:23:58.673333649+02:00"
