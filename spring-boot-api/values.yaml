@@ -23,12 +23,19 @@ image:
   # Overrides the image tag whose default is the chart appVersion.
   tag: "stable"
 
-# This is for additional Environment Variables which will be added to the main Pod.
+# This will set additional Environment Variables which will be added to the main Pod.
 # Adjust them as necessary, and remove the square braces after 'additionalEnvVars'.
 additionalEnvVars: []
   # - name: ENV_VAR
   #   value: env_var_value
 
+
+# This will set command which will be issued after the Pod starts.
+# Adjust them as necessary, and remove the square braces after 'args'.
+command: []
+  # - "/bin/sh"
+  # - "-c"
+  # - "echo"
 
 # This is for additional arguments which will be added to the main Pod command.
 # Adjust them as necessary, and remove the square braces after 'args'.
